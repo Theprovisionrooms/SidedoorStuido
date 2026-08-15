@@ -222,6 +222,18 @@ button{ font-family: inherit; cursor: pointer; }
 }
 .hero-ctas{ display: flex; gap: 16px; flex-wrap: wrap; }
 
+@media (max-width: 860px){
+  .hero{ padding: 90px 0 60px; }
+  .hero-grid{
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+  .hero-grid > div:last-child .bust-fig{
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
 .btn{
   display: inline-flex;
   align-items: center;
@@ -267,6 +279,7 @@ button{ font-family: inherit; cursor: pointer; }
 .bust-fig[data-img-loaded="true"] .bust-img{ opacity: 1; }
 .bust-fig[data-img-loaded="true"] .bust-silhouette,
 .bust-fig[data-img-loaded="true"] .bust-placeholder-mark{ display: none; }
+.bust-fig[data-img-loaded="true"] .bust-layer{ background: transparent; }
 .bust-fig .bust-placeholder-mark{
   font-family: var(--mono);
   font-size: 10px;
