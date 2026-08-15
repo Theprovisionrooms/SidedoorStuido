@@ -29,6 +29,7 @@
 }
 
 *, *::before, *::after{ box-sizing: border-box; }
+figure{ margin: 0; }
 html{ scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce){
   html{ scroll-behavior: auto; }
@@ -404,8 +405,9 @@ section.tight{ padding: 64px 0; }
   color: rgba(212,200,176,0.62);
   margin: 0;
 }
-@media (max-width: 900px){ .services-grid{ grid-template-columns: repeat(2,1fr); } }
-@media (max-width: 620px){ .services-grid{ grid-template-columns: 1fr; } }
+.process-grid{ grid-template-columns: repeat(4,1fr); }
+@media (max-width: 900px){ .services-grid, .process-grid{ grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 620px){ .services-grid, .process-grid{ grid-template-columns: 1fr; } }
 
 /* ---------- Work grid ---------- */
 .work-grid{
