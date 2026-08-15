@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Sidedoor Studio</title>
+<meta name="description" content="Request access to Sidedoor Studio, the private division of Sidedoor Digital.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark">SIDEDOOR <small>STUDIO</small></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Request access</a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+  </div>
+</nav>
+
+<div class="mobile-menu">
+  <div class="mobile-menu-top">
+    <span class="nav-mark">SIDEDOOR <small>STUDIO</small></span>
+    <button class="nav-toggle" aria-label="Close menu">✕</button>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="work.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<header class="page-hero">
+  <div class="wrap reveal in">
+    <span class="eyebrow">Request access</span>
+    <h1>Tell us what you're building.</h1>
+    <p>Studio takes on a small number of commissions at a time. Every request is read directly, there's no inbox handler in between.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap contact-grid">
+    <form class="reveal" id="studio-form" action="https://formspree.io/f/xwvryavb" method="POST">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="company">Business</label>
+        <input type="text" id="company" name="company">
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="field">
+        <label for="project">Project type</label>
+        <select id="project" name="project">
+          <option>Website or web app</option>
+          <option>Progressive web app</option>
+          <option>E-commerce</option>
+          <option>Point of sale</option>
+          <option>Booking or reservations</option>
+          <option>QR ordering</option>
+          <option>Automation or integration</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="nda"><input type="checkbox" id="nda" name="nda" style="width:auto; display:inline-block; margin-right:8px;">Request an NDA before discussing details</label>
+      </div>
+      <div class="field">
+        <label for="message">Tell us about it</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send request</button>
+      <p id="form-status" style="color:var(--brass-bright); font-family:var(--mono); font-size:13px; margin-top:18px; display:none;">Request received. We reply directly, usually within two working days.</p>
+    </form>
+
+    <div class="contact-side reveal">
+      <div class="item">
+        <h4>Direct line</h4>
+        <p><a href="mailto:digitalsidedoor@gmail.com">digitalsidedoor@gmail.com</a></p>
+      </div>
+      <div class="item">
+        <h4>Discretion</h4>
+        <p>Every engagement can run under NDA. Nothing about your project is shared or shown as a case study without your sign off.</p>
+      </div>
+      <div class="item">
+        <h4>Response time</h4>
+        <p>Usually within two working days, read and replied to directly.</p>
+      </div>
+      <div class="item">
+        <h4>Access</h4>
+        <p>By referral or application. Not every request is taken on, Studio only runs a small number of commissions at once.</p>
+      </div>
+      <div class="item">
+        <h4>Main studio</h4>
+        <p><a href="https://getsidedoor.co.uk">getsidedoor.co.uk</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-mark">SIDEDOOR <small>STUDIO</small></span>
+        <p>The private division of Sidedoor Digital. Same studio, same craft, a smaller and quieter client list.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:digitalsidedoor@gmail.com">digitalsidedoor@gmail.com</a>
+        <a href="contact.html">Request access</a>
+        <a href="https://getsidedoor.co.uk">getsidedoor.co.uk</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sidedoor Studio. A division of Sidedoor Digital.</span>
+      <span>Southport, UK</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
