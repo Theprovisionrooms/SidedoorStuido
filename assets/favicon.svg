@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Sidedoor Studio mark: a quiet threshold/archway, with the inner line
+       drawn slightly off-axis and open, suggesting a door left ajar.
+       Symmetric outer frame, deliberately asymmetric inner line. -->
+  <path d="M 28 86 L 28 40 C 28 24 38 12 50 12 C 62 12 72 24 72 40 L 72 86"
+        fill="none" stroke="#A78C61" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 56 84 L 60 30"
+        fill="none" stroke="#A78C61" stroke-width="3.2"
+        stroke-linecap="round"/>
+</svg>
